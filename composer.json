@@ -3,6 +3,7 @@
     "description": "A Laravel Checkout Helper, for callback checking exists transaction",
     "type": "library",
     "homepage": "https://github.com/skygdi/checkout",
+    "minimum-stability": "stable",
     "authors": [
         {
             "name": "skygdi",
@@ -17,5 +18,12 @@
         "psr-4": {
             "Skygdi\\Checkout\\": "src/"
         }
-    }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "skygdi\\checkout\\CheckoutServiceProvider"
+            ]
+        }
+    },
 }
