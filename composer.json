@@ -1,0 +1,17 @@
+{
+    "name": "vagrant/skygdi",
+    "description": "A Laravel Checkout Helper, for callback checking exists transaction",
+    "type": "library",
+    "authors": [
+        {
+            "name": "skygdi",
+            "email": "skygdi83@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Skygdi\\Checkout\\": "src/"
+        }
+    }
+}
