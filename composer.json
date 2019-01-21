@@ -1,7 +1,8 @@
 {
-    "name": "vagrant/skygdi",
+    "name": "skygdi/checkout",
     "description": "A Laravel Checkout Helper, for callback checking exists transaction",
     "type": "library",
+    "homepage": "https://github.com/skygdi/checkout",
     "authors": [
         {
             "name": "skygdi",
